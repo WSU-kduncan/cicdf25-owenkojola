@@ -1,0 +1,4 @@
+env:
+  IMAGE_NAME: owenkojola/p4-ci-site
+context: .
+file: ./Dockerfile
