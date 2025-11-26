@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 1rem 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Cats page colors */
+body.cats {
+  background-color: #fdf3c4; /* light yellow */
+  color: #333333;
+}
+
+body.cats header {
+  background-color: #f4c542;
+}
+
+body.cats nav a {
+  color: #333333;
+}
+
+/* Dogs page colors */
+body.dogs {
+  background-color: #c4e4fd; /* light blue */
+  color: #222222;
+}
+
+body.dogs header {
+  background-color: #4287f5;
+}
+
+body.dogs nav a {
+  color: #ffffff;
+}
