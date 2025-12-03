@@ -1,0 +1,18 @@
+[
+  {
+    "id": "refresh",
+    "execute-command": "/opt/deployment/refresh.sh",
+    "command-working-directory": "/opt/deployment",
+    "response-message": "Refresh script triggered",
+    "trigger-rule": {
+      "match": {
+        "type": "value",
+        "value": "72262C69dAC9c6B950EA18A7E9C00048",
+        "parameter": {
+          "source": "url",
+          "name": "token"
+        }
+      }
+    }
+  }
+]
