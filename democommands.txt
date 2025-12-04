@@ -1,0 +1,22 @@
+open http://3.227.82.211/
+
+ssh -i labuser.pem ec2-user@3.227.82.211
+sudo docker ps
+
+edit webpage
+
+git add .
+git commit -m "demo test"
+git push
+git tag v1.0.6
+git push origin main v1.0.6
+
+GitHub action
+DockerHub image tags
+DockerHub image webhook
+
+show webpage
+
+sudo docker ps
+
+hooks.json trigger rule & protection
