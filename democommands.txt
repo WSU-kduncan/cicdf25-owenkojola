@@ -1,6 +1,6 @@
 open http://3.227.82.211/
 
-ssh -i labuser.pem ec2-user@3.227.82.211
+ssh -i labsuser.pem ec2-user@3.227.82.211
 sudo docker ps
 
 edit webpage
