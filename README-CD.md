@@ -80,6 +80,7 @@ Install docker
 
 #### Hook definition file
 - Trigger uses a shared secret token in the URL query string
+- With more time I would only have it trigger with the latest DockerHub update. Currently it only updates with the valid token but will update 5 times.
 
     [hooks.json](deployment/hooks.json)
 
