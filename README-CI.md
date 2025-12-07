@@ -133,36 +133,72 @@ ChatGPT for Errors I ran into like having the wrong name for the DOCKER_PAT secr
 
 https://docs.docker.com/engine/reference/builder/
 
+Main page I used for all of the docker stuff, had a lot of useful sub pages I visited below.
+
 https://docs.docker.com/engine/reference/commandline/build/
+
+Has all the flags and syntax for docker build, I ended up using my docker image from project03.
 
 https://docs.docker.com/engine/reference/commandline/run/
 
+Docker run parameters used for the docker container being removed when exited, detached, and always restart.
+
 https://docs.docker.com/engine/reference/commandline/tag/
+
+Docker image tag for latest, this is what I thought would make it only trigger once for latest.
 
 https://docs.docker.com/engine/reference/commandline/push/
 
+I don't think I actually used anything from this page, just one of the ones I visited while looking for other stuff I needed.
+
 https://docs.docker.com/engine/reference/commandline/login/
+
+Something I needed before I decided to just use project03 webpage, also was trying to figure out why it wasn't working because I accidentally deleted the PAT for my desktop.
 
 https://docs.docker.com/docker-hub/access-tokens/
 
+The actual page I was looking for to figure out why my PAT wasn't working (I deleted my PAT because it said I had never used it because I just made it.)
+
 https://hub.docker.com/_/httpd
+
+Another page I visited before deciding to use my project03 webpage.
 
 https://httpd.apache.org/docs/
 
+Same as above, was looking for something in the apache 2.4 docs I didn't end up using.
+
 https://docs.github.com/en/actions
+
+Github actions main page, used this to get to all the subpages below, most useful page I visited for this project.
 
 https://docs.github.com/en/actions/security-guides/encrypted-secrets
 
+I had an issue with my secrets, used this page to figure out that my syntax for YAML was wrong for my PAT.
+
 https://github.com/actions/checkout
+
+Used for checkoutv4 so that my workflow can access it.
 
 https://github.com/docker/login-action
 
+Used to figure out how to login to dockerhub using a github action.
+
 https://github.com/docker/build-push-action
+
+Used to build and push docker images from an action.
 
 https://github.com/docker/metadata-action
 
+Used with the Semvar flags for proper docker tags.
+
 https://github.com/docker/setup-buildx-action
+
+Part of the build-push-action stuff.
 
 https://git-scm.com/book/en/v2/Git-Basics-Tagging
 
+Used to learn how to use git tags for versioning.
+
 https://semver.org/
+
+Used to learn what each part of the vX.X.X meant and when to change them.

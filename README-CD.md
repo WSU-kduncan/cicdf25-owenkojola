@@ -150,56 +150,112 @@ ChatGPT for troubleshooting webhooks after install.
 
 https://docs.docker.com/docker-hub/repos/manage/webhooks/
 
+Used to see how to setup webhooks on dockerhub.
+
 https://docs.docker.com/docker-hub/repos/
+
+Used this page to get to the above webhooks page.
 
 https://docs.github.com/actions/learn-github-actions/events-that-trigger-workflows
 
+I don't think I ended up using anything from this page.
+
 https://docs.github.com/actions/using-workflows/triggering-a-workflow
+
+Another page I don't think I actually used anything from, just visited while looking for something else.
 
 https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions
 
+Used for formatting and checking the workflow YAML mainly login stuff.
+
 https://github.com/adnanh/webhook
+
+How to install and setup the webhook service and hooks.json.
 
 https://github.com/adnanh/webhook/releases
 
+Used to get the link of release to wget on the instance.
+
 https://sources.debian.org/src/webhook/2.8.0-4/docs/Hook-Examples.md/
+
+Used for the hooks.json file to get the formatting and what I needed for it to work.
 
 https://pkg.go.dev/github.com/adnanh/webhook/internal/hook
 
+Used for basically all other webhook stuff.
+
 https://www.freedesktop.org/software/systemd/man/systemd.service.html
+
+Used for the webhook.service file, how to setup system services.
 
 https://man7.org/linux/man-pages/man8/systemd-journald.service.8.html
 
+What I thought I was looking for for the below link.
+
 https://www.systutorials.com/docs/linux/man/1-systemd-journalctl/
+
+Used for checking if the webhook service was working when troubleshooting.
 
 https://docs.fedoraproject.org/en-US/quick-docs/systemd-understanding-and-administering/
 
+Used for setting up the webhook service.
+
 https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files
+
+Another page I used for figuring out my webhook.service file.
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html
 
+Didn't actually need this for the project, was trying to fix my ec2 instance.
+
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules-reference.html
+
+Didn't actually need this for the project, was trying to fix my ec2 instance.
 
 https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html
 
+Didn't actually need this for the project, was trying to fix my ec2 instance.
+
 https://docs.aws.amazon.com/vpc/latest/userguide/security-group-rules.html
+
+Didn't actually need this for the project, was trying to fix my ec2 instance.
 
 https://docs.docker.com/engine/install/
 
+Used for installing docker on the instance.
+
 https://docs.docker.com/engine/reference/commandline/docker/
+
+Another page I used for installing and setting up docker on the instance.
 
 https://docs.docker.com/engine/reference/commandline/pull/
 
+Used for the refresh.sh to check if I needed to do anything extra when pulling.
+
 https://docs.docker.com/engine/reference/commandline/run/
+
+Used for the parameters in the refresh.sh script.
 
 https://docs.docker.com/engine/reference/commandline/ps/
 
+I didn't use anything from this, was just looking to see if there was any better ways to look at the running images.
+
 https://docs.docker.com/engine/reference/commandline/logs/
+
+Used to see if my docker container was working as intended.
 
 https://docs.docker.com/engine/reference/commandline/tag/
 
+What I thought was going to trigger only the latest for webhooks.
+
 https://github.com/docker/metadata-action
+
+Used with the Semvar flags for proper docker tags.
 
 https://github.com/docker/build-push-action
 
+Used to build and push docker images from an action.
+
 https://semver.org/
+
+Used to learn what each part of the vX.X.X meant and when to change them.
